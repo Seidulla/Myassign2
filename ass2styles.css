@@ -1,0 +1,137 @@
+@media (max-width: 768px) {
+    
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Home Section styles */
+#home {
+    background-image: url('home-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #417560;
+}
+
+/* Car Model Section styles */
+#models {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Common styles */
+.car-model,
+.card {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+/* Contact Section styles */
+#contact {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Carousel styles */
+.carousel {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner,
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-caption {
+    border-radius: 5px;
+}
+
+.carousel-item,
+.carousel-indicators {
+    text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #fff;
+}
+
+/* Tooltip styles */
+.tooltip-link {
+    cursor: pointer;
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.tooltip-link:hover {
+    text-decoration: underline;
+}
+
+/* Read More button and expanded card styles */
+.card .summary,
+.card.expanded .read-more {
+    display: block;
+}
+
+.card .read-more,
+.card.expanded .summary {
+    display: none;
+}
+
+.card.expanded {
+    height: auto;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-img-top {
+    max-height: 200px; /* Set the maximum height to match the card content */
+    object-fit: cover; /* Maintain the aspect ratio of the image */
+}
+
+.card-body {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
