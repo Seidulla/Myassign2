@@ -54,7 +54,7 @@ figure img {
     margin: 0 auto;
 }
 
-/* Additional Styles for Enhancements (customize to your liking) */
+
 article {
     background: linear-gradient(to bottom, #fff, #f4f4f4);
 }
@@ -132,35 +132,35 @@ footer {
 }
 
 .dropdown-toggle {
-    background-color: #333; /* Change to the desired color (e.g., grey or black) */
-    color: #fff; /* Text color */
-    border: none; /* Remove button border */
+    background-color: #333;
+    color: #fff; 
+    border: none; 
 }
 
-/* Hover and focus styles for the dropdown button */
+
 .dropdown-toggle:hover, .dropdown-toggle:focus {
-    background-color: #555; /* Change to the desired hover color */
+    background-color: #555;
     color: #fff;
 }
 
-/* Customize dropdown item colors (optional) */
+
 .dropdown-item {
-    color: #333; /* Dropdown item text color */
+    color: #333; 
 }
 
-/* Hover and focus styles for dropdown items (optional) */
+
 .dropdown-item:hover, .dropdown-item:focus {
-    background-color: #f8f8f8; /* Change to the desired hover color for items */
+    background-color: #f8f8f8; 
     color: #333;
 }
 .common-link {
-    color: black; /* Change to the desired link color (e.g., black) */
-    text-decoration: none; /* Remove underline if needed */
+    color: black; 
+    text-decoration: none; 
 }
 
-/* Hover and focus styles for the link */
+
 .common-link:hover, .common-link:focus {
-    text-decoration: underline; /* Add underline on hover/focus if needed */
+    text-decoration: underline; 
 }
 .toast {
     position: fixed;
